@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* ///////////////////declarando variaveis///////////////// */
+:root{
+    --azulEscuro:#081a24;
+    --azulClaro:#5C76F7;
+    --azulMedio:#003d52;
+    --cinzaClaro:#c7c7c7;
+    --cinzaEscuro:#666666;
+    --Branco:#fff;
+    --largura: 1024px;
+}
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+/*//////////////////// formatando o header////////////////// */
+.cabecalho{
+    background-color: var(--azulEscuro);
+    width: var(--largura);
+    margin: auto;
+    padding: 8px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cabecalho ul{
+    list-style: none;
+}
+.cabecalho li{
+    display: inline-block;
+}
+.cabecalho a{
+    display: inline-block;
+    color:var(--cinzaClaro);
+    text-decoration: none;
+    margin-left: 56px;
+}
+.cabecalho a:hover{
+    color: var(--azulClaro);
+}
+
+/*///////////////// Formatando a seçao imagem/////////////// */
+.secao_imagem{
+    width: var(--largura);
+    margin: auto;
+}
+/* Formataçao seçao sobre */
+.secao_sobre{
+    width: var(--largura);
+    margin:auto;
+    padding: 80px;
+    text-align: center;
+}
+.secao_sobre h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--azulEscuro);
+    margin-bottom: 32px;
+}
+.secao_sobre p{
+    color: var(--cinzaEscuro);
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.secao_fotos{
+    display: flex;
+    margin: auto;
+    width: var(--largura);
+    padding: 0px 80px 80px 80px;
+    justify-content: space-between;
+}
+.secao_fotos article{
+    width: 32%;
+}
+.secao_fotos img{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.secao_fotos img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5ms;
+}
+
+.secao_fotos h3{
+    text-align: center;
+    color: var(--azulEscuro);
+    margin: 8px;
+    text-transform: uppercase;
+}
+.secao_fotos p{
+    text-align: center;
+    color: var(--cinzaEscuro);
+}
+.foto_azul{
+    width: var(--largura);
+    margin: auto;
+    padding: 80px;
+    background:url(../img/bg_detalhe.png), var(--azulMedio); /* colocar imagem de fundo com o texto dentro */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: var(--Branco);
+
+}
+.foto_azul h2{
+    width: 80%;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    
+}
+.foto_azul p{
+    width: 60%;
+    font-size: 16px;
+    font-weight: 100;
+}
+/* formatando seçao endereço*/
+.endereco{
+    width: var(--largura);
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+    color: var(--azulMedio);
+
+}
+.endereco p{
+    font-size: 28px ;
+    font-weight: 300;
+
+}
+.endereco p:first-child{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/*formatando seçao mapa*/
+.mapa{
+    width: var(--largura);
+    margin: auto;
+    padding: 32px;
+}
+.rodape{
+    width: var(--largura);
+    margin: auto;
+    background-color: var(--azulEscuro);
+    padding: 20px;
+    text-align: center;
+}
+.rodape p{
+    color: var(--cinzaClaro);
+}
+.rodape a{
+    display: block;
+    text-decoration: none;
+    color: var(--azulClaro);
+    padding: 4px;
+}
+
+
