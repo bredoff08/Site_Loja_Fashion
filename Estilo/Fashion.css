@@ -38,6 +38,7 @@ body{
     color:var(--cinzaClaro);
     text-decoration: none;
     margin-left: 56px;
+    font-size: 18px;
 }
 .cabecalho a:hover{
     color: var(--azulClaro);
@@ -63,7 +64,7 @@ body{
 }
 .secao_sobre p{
     color: var(--cinzaEscuro);
-    font-size: 16px;
+    font-size: 18px;
     line-height: 32px;
 }
 
@@ -91,10 +92,12 @@ body{
     color: var(--azulEscuro);
     margin: 8px;
     text-transform: uppercase;
+    
 }
 .secao_fotos p{
     text-align: center;
     color: var(--cinzaEscuro);
+    font-size: 18px;
 }
 .foto_azul{
     width: var(--largura);
@@ -112,12 +115,12 @@ body{
     font-weight: 300;
     margin-bottom: 32px;
     text-transform: uppercase;
-    
 }
 .foto_azul p{
-    width: 60%;
-    font-size: 16px;
+    width: 70%;
+    font-size: 18px;
     font-weight: 100;
+    line-height: 32px;
 }
 /* formatando seçao endereço*/
 .endereco{
